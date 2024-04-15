@@ -13,6 +13,7 @@ export default {
         'primary-bg': '#F5F7FA',
         'gray-text': '#B1B1B1',
         'border-gray': '#E6EFF5',
+        'overlay-color': 'rgba(0, 0, 0, .5)',
       },
     },
   },

@@ -1,15 +1,18 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import './styles.scss';
+import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
+import { setShowNavbar } from '../../redux/slices/navSlice';
 
 const Burger: FC = () => {
-  const [isActive, setIsActive] = useState<boolean>(false);
+  const { showNavbar } = useAppSelector((state) => state.nav);
+  const dipatch = useAppDispatch();
 
   return (
     <div
       className={`hamburger hamburger--arrowalt js-hamburger ${
-        isActive ? 'is-active' : ''
+        showNavbar ? 'is-active' : ''
       } lg:hidden`}
-      onClick={() => setIsActive(!isActive)}
+      onClick={() => dipatch(setShowNavbar(!showNavbar))}
     >
       <div className="hamburger-box">
         <div className="hamburger-inner"></div>
