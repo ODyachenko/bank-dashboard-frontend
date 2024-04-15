@@ -1,8 +1,12 @@
+import Sidebar from './components/Sidebar/Nav';
+import Overview from './pages/Overview';
+
 function App() {
   return (
-    <>
-      <h1>start app</h1>
-    </>
+    <main className="main lg:flex">
+      <Sidebar />
+      <Overview />
+    </main>
   );
 }
 
