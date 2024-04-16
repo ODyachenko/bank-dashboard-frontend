@@ -61,3 +61,23 @@ export type YearlyExpensesType = {
 export type ClassNameProps = {
   className?: string;
 };
+
+export type TabsType = string[];
+
+export type TabsItemType = {
+  value: string;
+  index: number;
+  activeTab: number;
+  setActiveTab: (index: number) => void;
+};
+
+export type RecentTransaction = {
+  id: number;
+  direction: 'income' | 'expense';
+  description: string;
+  transactionId: string;
+  type: string;
+  card: string;
+  date: string;
+  amount: number;
+};
