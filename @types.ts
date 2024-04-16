@@ -81,3 +81,16 @@ export type RecentTransaction = {
   date: string;
   amount: number;
 };
+
+export type AccountCategoriesType = {
+  id: number;
+  name: string;
+  total: number;
+  icon: any;
+};
+
+export type DebitCreditDataType = {
+  day: string;
+  debit: number;
+  credit: number;
+};
