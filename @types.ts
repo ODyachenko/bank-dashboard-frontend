@@ -94,3 +94,15 @@ export type DebitCreditDataType = {
   debit: number;
   credit: number;
 };
+
+export type InvestmentType = {
+  year: number;
+  total: number;
+};
+
+export type StockType = {
+  id: number;
+  name: string;
+  price: number;
+  returnPercent: number;
+};

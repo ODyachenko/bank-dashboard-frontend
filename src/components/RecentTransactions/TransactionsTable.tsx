@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { recentTransactions } from '../../data/RecentTransactions';
+import { recentTransactions } from '../../data/recentTransactions';
 import TransactionsRecord from './TransactionsRecord';
 
 const TransactionsTable: FC = () => {
