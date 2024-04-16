@@ -10,11 +10,15 @@ import {
 } from 'recharts';
 import Block from '../Block/Block';
 import { balanceHistory } from '../../data/balanceHistory';
+import { ClassNameProps } from '../../../@types';
 
-const BalanceHistory: FC = () => {
+const BalanceHistory: FC<ClassNameProps> = ({ className }) => {
   return (
-    <Block title="Balance History" className="lg:w-full">
-      <div className={'bg-white rounded-2xl p-4'}>
+    <Block
+      title="Balance History"
+      className={`lg:w-full ${className ? className : ''}`}
+    >
+      <div className={'bg-white rounded-2xl p-4 xl:p-7'}>
         <ResponsiveContainer height={225}>
           <AreaChart data={balanceHistory} style={{ fontSize: '12px' }}>
             <defs>

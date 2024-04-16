@@ -11,14 +11,15 @@ import {
   Legend,
 } from 'recharts';
 import { weeklyActivity } from '../../data/weeklyActivity';
+import { ClassNameProps } from '../../../@types';
 
-const WeeklyActivity: FC = () => {
+const WeeklyActivity: FC<ClassNameProps> = ({ className }) => {
   return (
     <Block
       title="Weekly Activity"
-      className="mb-5 lg:w-full lg:max-w-[480px] lg:flex-shrink-0 lg:mb-0 xl:max-w-[660px]"
+      className={`mb-5 ${className ? className : ''}`}
     >
-      <div className={'bg-white rounded-2xl p-4'}>
+      <div className={'bg-white rounded-2xl p-4 xl:p-7'}>
         <ResponsiveContainer height={225}>
           <BarChart
             data={weeklyActivity}

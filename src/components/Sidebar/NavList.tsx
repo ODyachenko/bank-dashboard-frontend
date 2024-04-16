@@ -8,7 +8,7 @@ const NavList: FC = () => {
   const dispatch = useAppDispatch();
 
   return (
-    <ul onClick={() => dispatch(setShowNavbar(false))}>
+    <ul className="nav__list" onClick={() => dispatch(setShowNavbar(false))}>
       {navList.map((item) => (
         <NavListItem key={item.id} {...item} />
       ))}

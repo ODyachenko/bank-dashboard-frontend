@@ -51,3 +51,13 @@ export type BalanceType = {
   month: string;
   balance: number;
 };
+
+export type YearlyExpensesType = {
+  id: number;
+  month: string;
+  amount: number;
+};
+
+export type ClassNameProps = {
+  className?: string;
+};

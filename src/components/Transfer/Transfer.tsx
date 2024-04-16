@@ -7,10 +7,7 @@ import 'swiper/css/navigation';
 
 const Transfer: FC = () => {
   return (
-    <Block
-      title="Quick Transfer"
-      className="mb-5 lg:mb-0 xl:w-[480px] xl:flex-shrink-0"
-    >
+    <Block title="Quick Transfer" className="mb-5 lg:mb-0">
       <div className="bg-white rounded-2xl p-4 lg:py-8 lg:px-5">
         <Swiper
           slidesPerView={'auto'}

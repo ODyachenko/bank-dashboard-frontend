@@ -9,7 +9,7 @@ const Transaction: FC<TransactionType> = ({
   value,
 }) => {
   return (
-    <li className="flex items-center gap-3 mb-3 last:mb-0">
+    <li className="flex items-center gap-3 mb-3 last:mb-0 lg:mb-4">
       <img className="rounded-xl" src={icon} alt={name} />
       <span>
         <span className="block font-medium mb-1">{name}</span>

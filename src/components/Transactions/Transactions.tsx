@@ -9,7 +9,7 @@ const Transactions: FC<TransactionsType> = ({
   className,
 }) => {
   return (
-    <Block title={title} className="lg:w-full">
+    <Block title={title}>
       <TransactionsList transactions={transactions} className={className} />
     </Block>
   );

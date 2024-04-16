@@ -3,6 +3,8 @@ import logo from '../../assets/img/logo.svg';
 import NavList from './NavList';
 import { useAppSelector } from '../../hooks/hooks';
 import Burger from '../../UI/Burger/Burger';
+import { NavLink } from 'react-router-dom';
+import './styles.scss';
 
 const Sidebar: FC = () => {
   const { showNavbar } = useAppSelector((state) => state.nav);
@@ -15,13 +17,15 @@ const Sidebar: FC = () => {
 
   return (
     <nav
-      className={`nav w-64 bg-white overflow-auto py-6 border-r border-solid border-border-gray absolute top-0 bottom-0 -left-[255px] z-50 transition-all duration-300 lg:block xl:flex-shrink-0 
+      className={`nav  absolute top-0 bottom-0 -left-[255px] z-50 transition-all duration-300 lg:block xl:flex-shrink-0 
       ${showNavbar ? 'left-0' : ''} lg:static`}
     >
       <div className="container">
         <div className="nav__brand flex items-center gap-3 mb-14">
-          <img src={logo} alt="Logo" />
-          <h1 className="text-2xl font-bold">BankDash</h1>
+          <NavLink to={'/'} className={'flex items-center gap-3'}>
+            <img src={logo} alt="Logo" />
+            <h1 className="text-2xl font-bold">BankDash</h1>
+          </NavLink>
           <Burger />
         </div>
         <NavList />

@@ -1,14 +1,15 @@
-import Sidebar from './components/Sidebar/Nav';
-import NavOverlay from './components/Sidebar/NavOverlay';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Overview from './pages/Overview';
+import Transactions from './pages/Transactions';
 
 function App() {
   return (
-    <main className="main lg:flex">
-      <Sidebar />
-      <Overview />
-      <NavOverlay />
-    </main>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Overview />} />
+        <Route path="/transactions" element={<Transactions />} />
+      </Routes>
+    </Router>
   );
 }
 

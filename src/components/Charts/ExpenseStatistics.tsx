@@ -36,7 +36,7 @@ const ExpenseStatistics: FC = () => {
   };
 
   return (
-    <Block title="Expense Statistics" className="lg:w-full">
+    <Block title="Expense Statistics" className="lg:w-full ">
       <div className={'bg-white rounded-2xl p-4'}>
         <ResponsiveContainer height={290}>
           <PieChart>

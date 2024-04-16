@@ -5,7 +5,6 @@ import CreditCard from './CreditCard';
 const CreditCardsCarousel: FC = () => {
   return (
     <Swiper
-      className="lg:max-w-[480px] xl:max-w-[660px]"
       slidesPerView={'auto'}
       spaceBetween={20}
       breakpoints={{
@@ -19,13 +18,13 @@ const CreditCardsCarousel: FC = () => {
         // },
       }}
     >
-      <SwiperSlide className="max-w-[265px] xl:max-w-[350px]">
+      <SwiperSlide className="max-w-[260px] lg:max-w-none">
         <CreditCard />
       </SwiperSlide>
-      <SwiperSlide className="max-w-[265px] xl:max-w-[350px]">
+      <SwiperSlide className="max-w-[260px] lg:max-w-none">
         <CreditCard />
       </SwiperSlide>
-      <SwiperSlide className="max-w-[265px] xl:max-w-[350px]">
+      <SwiperSlide className="max-w-[260px] lg:max-w-none">
         <CreditCard />
       </SwiperSlide>
     </Swiper>

@@ -1,0 +1,56 @@
+.nav {
+  width: 256px;
+  background: #fff;
+  overflow: auto;
+  border-right: 1px solid rgb(230 239 245);
+
+  padding: 24px 0;
+
+  &__list {
+    &-link {
+      position: relative;
+      transition: all 0.3s ease;
+      padding: 18px 0;
+
+      &.active::before {
+        content: '';
+        width: 6px;
+        height: 100%;
+        background: #2d60ff;
+        border-radius: 10px;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -15px;
+      }
+      &:hover,
+      &.active {
+        color: #2d60ff;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  .nav {
+    &__list {
+      &-link {
+        &.active::before {
+          left: -25px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .nav {
+    &__list {
+      &-link {
+        &.active::before {
+          left: -40px;
+        }
+      }
+    }
+  }
+}
