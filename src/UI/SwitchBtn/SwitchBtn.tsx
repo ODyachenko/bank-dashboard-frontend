@@ -9,7 +9,7 @@ const SwitchBtn: FC<SwitchBtnProps> = ({ label }) => {
   const [enabled, setEnabled] = useState(false);
 
   return (
-    <Switch.Group as="div" className="flex items-center gap-3">
+    <Switch.Group as="div" className="flex items-center gap-3 cursor-pointer">
       <Switch
         checked={enabled}
         onChange={setEnabled}

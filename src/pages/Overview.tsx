@@ -8,6 +8,7 @@ import ExpenseStatistics from '../components/Charts/ExpenseStatistics';
 import BalanceHistory from '../components/Charts/BalanceHistory';
 import Transfer from '../components/Transfer/Transfer';
 import Layout from '../components/Layout/Layout';
+import PieChartTest from '../components/Charts/PieChartTest';
 
 const Overview: FC = () => {
   return (

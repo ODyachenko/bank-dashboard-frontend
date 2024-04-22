@@ -6,6 +6,7 @@ export default {
       colors: {
         'primary-blue': '#2D60FF',
         'secondary-blue': '#718EBF',
+        'hover-blue': '#2249c2',
         'primary-red': '#FF4B4A',
         'primary-green': '#41D4A8',
         'secondary-green': '#16DBCC',

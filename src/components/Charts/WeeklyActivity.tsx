@@ -19,8 +19,8 @@ const WeeklyActivity: FC<ClassNameProps> = ({ className }) => {
       title="Weekly Activity"
       className={`mb-5 ${className ? className : ''}`}
     >
-      <div className={'bg-white rounded-2xl p-4 xl:p-7'}>
-        <ResponsiveContainer height={225}>
+      <div className={'bg-white rounded-2xl p-4 lg:h-[322px] xl:p-7'}>
+        <ResponsiveContainer minHeight={225}>
           <BarChart
             data={weeklyActivity}
             // barSize={7}
