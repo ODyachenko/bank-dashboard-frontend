@@ -5,10 +5,7 @@ import { ClassNameProps } from '../../../@types';
 
 const CreditCards: FC<ClassNameProps> = ({ className }) => {
   return (
-    <Block
-      title="My Cards"
-      className={`mb-5 lg:mb-0 ${className ? className : ''}`}
-    >
+    <Block title="My Cards" className={`${className ? className : ''}`}>
       <CreditCardsCarousel />
     </Block>
   );

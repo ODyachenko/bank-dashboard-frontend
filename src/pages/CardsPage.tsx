@@ -11,7 +11,7 @@ const CardsPage: FC = () => {
   return (
     <Layout>
       <PageWrapper title="Credit Cards">
-        <CreditCards />
+        <CreditCards className="mb-5" />
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
           <ExpenseStatistics />
           <CardsList className="col-span-2" />

@@ -19,6 +19,9 @@ export default {
         'gradient-end': '#0A06F4',
         'secondary-white': 'rgba(255, 255, 255, .15)',
       },
+      height: {
+        'block-height': 'calc(100% - 48px)',
+      },
     },
   },
   plugins: [],

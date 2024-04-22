@@ -2,17 +2,20 @@ import React, { FC } from 'react';
 import CreditCards from '../components/CreditCards/CreditCards';
 import Layout from '../components/Layout/Layout';
 import PageWrapper from '../components/PageWrapper/PageWrapper';
-import RecentTransactions from '../components/RecentTransactions/RecentTransactions';
 import Transactions from '../components/Transactions/Transactions';
 import { transacrionList } from '../data/transactionList';
 import Categories from '../components/Categories/Categories';
 import DebitCredit from '../components/Charts/DebitCredit';
+import { accountCategories } from '../data/accountCategories';
 
 const Accounts: FC = () => {
   return (
     <Layout>
       <PageWrapper title="Accounts">
-        <Categories />
+        <Categories
+          categoriesList={accountCategories}
+          className="grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1"
+        />
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
           <Transactions
             title="Last Transaction"

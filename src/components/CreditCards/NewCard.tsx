@@ -7,7 +7,7 @@ import { ClassNameProps } from '../../../@types';
 const NewCard: FC<ClassNameProps> = ({ className }) => {
   return (
     <Block title="Add New Card" className={className}>
-      <form className="bg-white rounded-xl py-4 px-5">
+      <form>
         <p className="text-xs text-secondary-blue mb-4">
           Credit Card generally means a plastic card issued by Scheduled
           Commercial Banks assigned to a Cardholder, with a credit limit, that

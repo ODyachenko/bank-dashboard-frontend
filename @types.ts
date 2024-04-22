@@ -83,11 +83,11 @@ export type RecentTransaction = {
   amount: number;
 };
 
-export type AccountCategoriesType = {
+export type CategoriesType = {
   id: number;
   name: string;
-  total: number;
-  icon: any;
+  total: number | string;
+  icon: string;
 };
 
 export type DebitCreditDataType = {
@@ -106,6 +106,7 @@ export type StockType = {
   name: string;
   price: number;
   returnPercent: number;
+  icon: string;
 };
 
 export type BtnType = {
@@ -118,6 +119,7 @@ export type CardSettingType = {
   id: number;
   title: string;
   subtitle: string;
+  icon: string;
 };
 
 export type CardType = {

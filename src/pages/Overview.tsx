@@ -8,14 +8,13 @@ import ExpenseStatistics from '../components/Charts/ExpenseStatistics';
 import BalanceHistory from '../components/Charts/BalanceHistory';
 import Transfer from '../components/Transfer/Transfer';
 import Layout from '../components/Layout/Layout';
-import PieChartTest from '../components/Charts/PieChartTest';
 
 const Overview: FC = () => {
   return (
     <Layout>
       <PageWrapper title="Overview">
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
-          <CreditCards className="col-span-2" />
+          <CreditCards className="col-span-2 mb-5 lg:mb-0" />
           <Transactions
             title="Recent Transaction"
             transactions={transacrionList}

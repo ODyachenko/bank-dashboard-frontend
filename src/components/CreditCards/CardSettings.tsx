@@ -6,7 +6,7 @@ import CardSettingsItem from './CardSettingsItem';
 const CardSettings: FC = () => {
   return (
     <Block title="Card Settings">
-      <ul className="bg-white rounded-2xl p-4 xl:p-7">
+      <ul>
         {cardSettings.map((setting) => (
           <CardSettingsItem key={setting.id} {...setting} />
         ))}

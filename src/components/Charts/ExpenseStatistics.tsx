@@ -70,30 +70,28 @@ const ExpenseStatistics: FC = () => {
 
   return (
     <Block title="Expense Statistics" className="lg:w-full">
-      <div className={'bg-white rounded-2xl p-4'}>
-        <ResponsiveContainer height={290}>
-          <PieChart width={300} height={300}>
-            <Pie
-              activeIndex={activeIndex}
-              activeShape={renderActiveShape}
-              data={expenseStatistics}
-              cx="50%"
-              cy="50%"
-              innerRadius={80}
-              outerRadius={130}
-              dataKey="value"
-              onMouseEnter={onPieEnter}
-            >
-              {expenseStatistics.map((_, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
-                />
-              ))}
-            </Pie>
-          </PieChart>
-        </ResponsiveContainer>
-      </div>
+      <ResponsiveContainer height={290}>
+        <PieChart width={300} height={300}>
+          <Pie
+            activeIndex={activeIndex}
+            activeShape={renderActiveShape}
+            data={expenseStatistics}
+            cx="50%"
+            cy="50%"
+            innerRadius={80}
+            outerRadius={130}
+            dataKey="value"
+            onMouseEnter={onPieEnter}
+          >
+            {expenseStatistics.map((_, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={COLORS[index % COLORS.length]}
+              />
+            ))}
+          </Pie>
+        </PieChart>
+      </ResponsiveContainer>
     </Block>
   );
 };

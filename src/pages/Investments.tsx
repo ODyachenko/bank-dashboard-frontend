@@ -6,12 +6,16 @@ import YearlyInvestment from '../components/Charts/YearlyInvestment';
 import MonthlyRevenue from '../components/Charts/MonthlyRevenue';
 import Stock from '../components/Stock/Stock';
 import MyInvestment from '../components/MyInvestment/MyInvestment';
+import { investmentsCategories } from '../data/investmentsCategories';
 
 const Investments: FC = () => {
   return (
     <Layout>
       <PageWrapper title="Investments">
-        <Categories />
+        <Categories
+          categoriesList={investmentsCategories}
+          className="sm:grid-cols-2 md:grid-cols-3 md:grid-rows-1"
+        />
         <div className="row mb-5 lg:grid lg:grid-cols-2 lg:gap-6 lg:mb-6">
           <YearlyInvestment />
           <MonthlyRevenue />

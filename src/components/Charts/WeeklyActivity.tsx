@@ -15,11 +15,8 @@ import { ClassNameProps } from '../../../@types';
 
 const WeeklyActivity: FC<ClassNameProps> = ({ className }) => {
   return (
-    <Block
-      title="Weekly Activity"
-      className={`mb-5 ${className ? className : ''}`}
-    >
-      <div className={'bg-white rounded-2xl p-4 lg:h-[322px] xl:p-7'}>
+    <Block title="Weekly Activity" className={`${className ? className : ''}`}>
+      <div className={' lg:h-[322px]'}>
         <ResponsiveContainer minHeight={225}>
           <BarChart
             data={weeklyActivity}

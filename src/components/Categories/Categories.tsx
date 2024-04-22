@@ -1,11 +1,16 @@
 import React, { FC } from 'react';
-import { accountCategories } from '../../data/accountCategories';
 import CategoriesItem from './CategoriesItem';
+import { CategoriesType } from '../../../@types';
 
-const Categories: FC = () => {
+type CategoriesProps = {
+  categoriesList: CategoriesType[];
+  className?: string;
+};
+
+const Categories: FC<CategoriesProps> = ({ categoriesList, className }) => {
   return (
-    <ul className="grid grid-cols-2 grid-rows-2 gap-4 mb-5 md:grid-cols-4 md:grid-rows-1">
-      {accountCategories.map((category) => (
+    <ul className={`grid gap-4 mb-5 ${className ? className : ''}`}>
+      {categoriesList.map((category) => (
         <CategoriesItem key={category.id} {...category} />
       ))}
     </ul>
