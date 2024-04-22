@@ -2,7 +2,7 @@ export type NavListType = {
   id: number;
   value: string;
   path: string;
-  icon: any;
+  icon: string;
 };
 
 export type InputFieldType = {

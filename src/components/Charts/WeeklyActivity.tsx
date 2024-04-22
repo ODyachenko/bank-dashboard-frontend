@@ -23,7 +23,6 @@ const WeeklyActivity: FC<ClassNameProps> = ({ className }) => {
         <ResponsiveContainer minHeight={225}>
           <BarChart
             data={weeklyActivity}
-            // barSize={7}
             maxBarSize={15}
             style={{ fontSize: '12px' }}
           >
@@ -31,9 +30,9 @@ const WeeklyActivity: FC<ClassNameProps> = ({ className }) => {
             <XAxis dataKey="name" axisLine={false} />
             <YAxis width={40} axisLine={false} />
             <Tooltip />
-            <Legend />
-            <Bar dataKey="income" fill="#16DBCC" radius={4} />
-            <Bar dataKey="expense" fill="#FE5C73" radius={4} />
+            <Legend iconType="circle" />
+            <Bar dataKey="income" fill="#16DBCC" radius={5} />
+            <Bar dataKey="expense" fill="#FE5C73" radius={5} />
           </BarChart>
         </ResponsiveContainer>
       </div>

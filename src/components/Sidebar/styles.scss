@@ -17,7 +17,7 @@
         width: 6px;
         height: 100%;
         background: #2d60ff;
-        border-radius: 10px;
+        border-radius: 0 10px 10px 0;
 
         position: absolute;
         top: 0;
@@ -27,6 +27,10 @@
       &:hover,
       &.active {
         color: #2d60ff;
+      }
+      &:hover svg path,
+      &.active svg path {
+        fill: #2d60ff;
       }
     }
   }

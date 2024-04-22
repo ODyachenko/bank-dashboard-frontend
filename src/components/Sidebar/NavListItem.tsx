@@ -9,7 +9,7 @@ const NavListItem: FC<NavListType> = ({ value, path, icon }) => {
         to={path}
         className="nav__list-link flex items-center gap-5 text-gray-text   "
       >
-        <img src={icon} alt={value} />
+        <div dangerouslySetInnerHTML={{ __html: icon }} />
         <span className="text-base font-medium ">{value}</span>
       </NavLink>
     </li>
