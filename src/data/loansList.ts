@@ -1,0 +1,68 @@
+import { LoansType } from '../../@types';
+
+export const loansList: LoansType[] = [
+  {
+    id: 1,
+    loanMoney: 100000,
+    leftToRepay: 40500,
+    duration: 8,
+    rate: 12,
+    installment: 2000,
+  },
+  {
+    id: 2,
+    loanMoney: 500000,
+    leftToRepay: 250000,
+    duration: 36,
+    rate: 10,
+    installment: 8000,
+  },
+  {
+    id: 3,
+    loanMoney: 100000,
+    leftToRepay: 40500,
+    duration: 8,
+    rate: 12,
+    installment: 2000,
+  },
+  {
+    id: 4,
+    loanMoney: 100000,
+    leftToRepay: 40500,
+    duration: 8,
+    rate: 12,
+    installment: 2000,
+  },
+  {
+    id: 5,
+    loanMoney: 100000,
+    leftToRepay: 40500,
+    duration: 8,
+    rate: 12,
+    installment: 2000,
+  },
+  {
+    id: 6,
+    loanMoney: 100000,
+    leftToRepay: 40500,
+    duration: 8,
+    rate: 12,
+    installment: 2000,
+  },
+  {
+    id: 7,
+    loanMoney: 12000,
+    leftToRepay: 5500,
+    duration: 9,
+    rate: 13,
+    installment: 500,
+  },
+  {
+    id: 8,
+    loanMoney: 160000,
+    leftToRepay: 100800,
+    duration: 3,
+    rate: 12,
+    installment: 900,
+  },
+];

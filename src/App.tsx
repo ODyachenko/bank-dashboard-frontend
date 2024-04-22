@@ -4,6 +4,7 @@ import Transactions from './pages/Transactions';
 import Accounts from './pages/Accounts';
 import Investments from './pages/Investments';
 import CardsPage from './pages/CardsPage';
+import Loans from './pages/Loans';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/accounts" element={<Accounts />} />
         <Route path="/investments" element={<Investments />} />
         <Route path="/credit-cards" element={<CardsPage />} />
+        <Route path="/loans" element={<Loans />} />
       </Routes>
     </Router>
   );

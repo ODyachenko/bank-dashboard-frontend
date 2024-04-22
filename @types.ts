@@ -125,3 +125,12 @@ export type CardType = {
   type: string;
   bank: string;
 };
+
+export type LoansType = {
+  id: number;
+  loanMoney: number;
+  leftToRepay: number;
+  duration: number;
+  rate: number;
+  installment: number;
+};
