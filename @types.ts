@@ -9,6 +9,7 @@ export type InputFieldType = {
   label: string;
   placeholder: string;
   type: 'text' | 'email' | 'password' | 'date' | 'number';
+  className?: string;
 };
 
 export type PrimaryBtnType = {
@@ -105,4 +106,22 @@ export type StockType = {
   name: string;
   price: number;
   returnPercent: number;
+};
+
+export type BtnType = {
+  value: string;
+  className?: string;
+  handler?: () => void;
+};
+
+export type CardSettingType = {
+  id: number;
+  title: string;
+  subtitle: string;
+};
+
+export type CardType = {
+  id: number;
+  type: string;
+  bank: string;
 };
