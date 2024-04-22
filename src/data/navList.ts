@@ -49,18 +49,6 @@ export const navList: NavListType[] = [
   },
   {
     id: 7,
-    value: 'Services',
-    path: '/services',
-    icon: Services,
-  },
-  {
-    id: 8,
-    value: 'My Privileges',
-    path: '/my-privileges',
-    icon: MyPrivileges,
-  },
-  {
-    id: 9,
     value: 'Settings',
     path: '/settings',
     icon: Settings,

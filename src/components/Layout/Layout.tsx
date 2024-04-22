@@ -8,7 +8,7 @@ type LayoutProps = {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <main className="main lg:flex">
+    <main className="main lg:flex lg:min-h-screen">
       <Sidebar />
       {children}
       <NavOverlay />

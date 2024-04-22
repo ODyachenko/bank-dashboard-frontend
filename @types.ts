@@ -69,7 +69,7 @@ export type TabsItemType = {
   value: string;
   index: number;
   activeTab: number;
-  setActiveTab: (index: number) => void;
+  onChangeHandler: (index: number) => void;
 };
 
 export type RecentTransaction = {
@@ -133,4 +133,10 @@ export type LoansType = {
   duration: number;
   rate: number;
   installment: number;
+};
+
+export type SelectFieldType = {
+  label: string;
+  className?: string;
+  options: string[];
 };

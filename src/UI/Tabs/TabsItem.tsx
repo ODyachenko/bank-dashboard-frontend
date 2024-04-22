@@ -5,7 +5,7 @@ const TabsItem: FC<TabsItemType> = ({
   value,
   index,
   activeTab,
-  setActiveTab,
+  onChangeHandler,
 }) => {
   return (
     <li
@@ -14,7 +14,7 @@ const TabsItem: FC<TabsItemType> = ({
           ? 'text-primary-blue border-b-2 border-primary-blue'
           : 'text-secondary-blue'
       }`}
-      onClick={() => setActiveTab(index)}
+      onClick={() => onChangeHandler(index)}
     >
       {value}
     </li>
