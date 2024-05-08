@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import searchIcon from '../../assets/img/search.svg';
+import searchIcon from '/search.svg';
 
 const SearchField: FC = () => {
   return (

@@ -1,4 +1,4 @@
-import icon from '../assets/img/transacrion.png';
+import icon from '/transacrion.png';
 import { TransactionType } from '../../@types';
 
 export const transacrionList: TransactionType[] = [

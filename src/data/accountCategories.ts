@@ -5,24 +5,24 @@ export const accountCategories: CategoriesType[] = [
     id: 1,
     name: 'My Balance',
     total: '$12750',
-    icon: '/src/assets/img/balance.png',
+    icon: '/balance.png',
   },
   {
     id: 2,
     name: 'Income',
     total: '$5600',
-    icon: '/src/assets/img/income.png',
+    icon: '/income.png',
   },
   {
     id: 3,
     name: 'Expense',
     total: '$3460',
-    icon: '/src/assets/img/expense.png',
+    icon: '/expense.png',
   },
   {
     id: 4,
     name: 'Total Saving',
     total: '$7920',
-    icon: '/src/assets/img/saving.png',
+    icon: '/saving.png',
   },
 ];

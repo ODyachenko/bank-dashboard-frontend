@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import chip from '../../assets/img/chip.svg';
-import cardtype from '../../assets/img/cardtype.svg';
+import chip from '/chip.svg';
+import cardtype from '/cardtype.svg';
 
 const CreditCard: FC = () => {
   return (

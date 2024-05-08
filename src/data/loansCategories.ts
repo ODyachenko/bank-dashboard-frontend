@@ -5,18 +5,18 @@ export const loansCategories: CategoriesType[] = [
     id: 1,
     name: 'Personal Loans',
     total: '$50000',
-    icon: '/src/assets/img/personalLoans.png',
+    icon: '/personalLoans.png',
   },
   {
     id: 2,
     name: 'Corporate Loans',
     total: '$100000',
-    icon: '/src/assets/img/corporateLoans.png',
+    icon: '/corporateLoans.png',
   },
   {
     id: 3,
     name: 'Business Loans',
     total: '$500000',
-    icon: '/src/assets/img/businessLoans.png',
+    icon: '/businessLoans.png',
   },
 ];

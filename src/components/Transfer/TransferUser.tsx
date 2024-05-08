@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import avatar from '../../assets/img/avatar.png';
+import avatar from '/avatar.png';
 
 const TransferUser: FC = () => {
   return (

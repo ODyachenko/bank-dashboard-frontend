@@ -2,7 +2,7 @@ import { FC } from 'react';
 import SearchField from '../../UI/SearchField/SearchField';
 import { PageInnerType } from '../../../@types';
 
-import user from '../../assets/img/avatar.png';
+import user from '/avatar.png';
 import Burger from '../../UI/Burger/Burger';
 
 const PageInner: FC<PageInnerType> = ({ title }) => {

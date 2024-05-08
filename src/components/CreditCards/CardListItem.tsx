@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { CardType } from '../../../@types';
-import icon from '../../assets/img/transacrion.png';
+import icon from '/transacrion.png';
 
 const CardListItem: FC<CardType> = ({ type, bank }) => {
   return (

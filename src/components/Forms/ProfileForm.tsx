@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import avatar from '../../assets/img/avatar.png';
+import avatar from '/avatar.png';
 import InputField from '../../UI/InputField/InputField';
 import Btn from '../../UI/Btn/Btn';
 import SelectField from '../../UI/SelectField.tsx/SelectField';

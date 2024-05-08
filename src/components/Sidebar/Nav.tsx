@@ -1,5 +1,5 @@
 import { FC, useEffect } from 'react';
-import logo from '../../assets/img/logo.svg';
+import logo from '/logo.svg';
 import NavList from './NavList';
 import { useAppSelector } from '../../hooks/hooks';
 import Burger from '../../UI/Burger/Burger';
