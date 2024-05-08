@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Categories from '../components/Categories/Categories';
 import Layout from '../components/Layout/Layout';
 import PageWrapper from '../components/PageWrapper/PageWrapper';

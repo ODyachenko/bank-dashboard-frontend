@@ -24,7 +24,7 @@ export type PageInnerType = {
 
 export type TransactionType = {
   id: number;
-  icon: React.ReactNode;
+  icon: string;
   name: string;
   date: string;
   type: 'income' | 'expense';
@@ -108,7 +108,7 @@ export type StockType = {
   name: string;
   price: number;
   returnPercent: number;
-  icon: string;
+  icon?: string;
 };
 
 export type BtnType = {

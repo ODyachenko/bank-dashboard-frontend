@@ -16,7 +16,7 @@ const InputField: FC<InputFieldType> = ({
         className="border border-solid border-border-gray  rounded-xl py-4 px-5"
         type={type}
         value={value}
-        onChange={(evt) => onChange(evt.target.value)}
+        onChange={(evt) => onChange && onChange(evt.target.value)}
         placeholder={placeholder}
       />
     </label>

@@ -1,11 +1,10 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Block from '../Block/Block';
 import {
   ResponsiveContainer,
   BarChart,
   CartesianGrid,
   XAxis,
-  YAxis,
   Tooltip,
   Legend,
   Bar,

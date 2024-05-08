@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import CategoriesItem from './CategoriesItem';
 import { CategoriesType } from '../../../@types';
 

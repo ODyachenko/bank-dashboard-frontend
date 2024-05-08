@@ -1,7 +1,5 @@
-import React, { FC } from 'react';
-import InputField from '../UI/InputField/InputField';
+import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import Btn from '../UI/Btn/Btn';
 import RegisterForm from '../components/Forms/RegisterForm';
 
 const Register: FC = () => {

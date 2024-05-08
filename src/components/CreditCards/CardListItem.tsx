@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { CardType } from '../../../@types';
 import icon from '../../assets/img/transacrion.png';
 

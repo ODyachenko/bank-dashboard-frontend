@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { BarChart, Bar, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
 import { yearlyExpenses } from '../../data/yearlyExpenses';
 import Block from '../Block/Block';

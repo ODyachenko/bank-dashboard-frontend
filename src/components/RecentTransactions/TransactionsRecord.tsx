@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { RecentTransaction } from '../../../@types';
 
 const TransactionsRecord: FC<RecentTransaction> = ({

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Btn from '../../UI/Btn/Btn';
 import SelectField from '../../UI/SelectField.tsx/SelectField';
 import SwitchBtn from '../../UI/SwitchBtn/SwitchBtn';

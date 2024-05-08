@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { CategoriesType } from '../../../@types';
 
 const CategoriesItem: FC<CategoriesType> = ({ name, icon, total }) => {

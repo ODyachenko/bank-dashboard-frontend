@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Block from '../Block/Block';
 import StockTable from './StockTable';
 

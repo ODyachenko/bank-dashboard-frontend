@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { TabsType } from '../../../@types';
 import TabsItem from './TabsItem';
 

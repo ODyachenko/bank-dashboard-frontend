@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { BtnType } from '../../../@types';
 
 const Btn: FC<BtnType> = ({ value, handler, className }) => {

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Block from '../Block/Block';
 import { cardsList } from '../../data/cardsList';
 import CardListItem from './CardListItem';

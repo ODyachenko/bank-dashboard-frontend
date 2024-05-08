@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import CreditCards from '../components/CreditCards/CreditCards';
 import Layout from '../components/Layout/Layout';
 import PageWrapper from '../components/PageWrapper/PageWrapper';

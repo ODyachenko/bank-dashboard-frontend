@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { CardSettingType } from '../../../@types';
 
 const CardSettingsItem: FC<CardSettingType> = ({ title, subtitle, icon }) => {

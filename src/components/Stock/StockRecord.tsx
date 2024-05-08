@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { StockType } from '../../../@types';
 
 const StockRecord: FC<StockType> = ({ name, price, id, returnPercent }) => {

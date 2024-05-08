@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { stockList } from '../../data/stockList';
 import StockRecord from './StockRecord';
 

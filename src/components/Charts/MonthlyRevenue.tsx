@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Block from '../Block/Block';
 import {
   ResponsiveContainer,
@@ -7,7 +7,6 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  Legend,
   Line,
 } from 'recharts';
 import { monthlyRevenue } from '../../data/monthlyRevenue';

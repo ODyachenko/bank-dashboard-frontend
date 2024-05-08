@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import LoginForm from '../components/Forms/LoginForm';
 
 const Login: FC = () => {

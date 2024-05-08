@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Block from '../Block/Block';
 import { cardSettings } from '../../data/cardSettings';
 import CardSettingsItem from './CardSettingsItem';

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import avatar from '../../assets/img/avatar.png';
 import InputField from '../../UI/InputField/InputField';
 import Btn from '../../UI/Btn/Btn';

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { loansList } from '../../data/loansList';
 import LoanRecord from './LoanRecord';
 

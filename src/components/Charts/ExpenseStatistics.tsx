@@ -62,7 +62,7 @@ const renderActiveShape = (props: any) => {
 const ExpenseStatistics: FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const onPieEnter = useCallback(
-    (_, index) => {
+    (_: any, index: number) => {
       setActiveIndex(index);
     },
     [setActiveIndex]

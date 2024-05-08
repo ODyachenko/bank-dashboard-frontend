@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Btn from '../../UI/Btn/Btn';
 import InputField from '../../UI/InputField/InputField';
 
