@@ -6,6 +6,8 @@ export type NavListType = {
 };
 
 export type InputFieldType = {
+  value?: string;
+  onChange?: (value: string) => void;
   label: string;
   placeholder: string;
   type: 'text' | 'email' | 'password' | 'date' | 'number';

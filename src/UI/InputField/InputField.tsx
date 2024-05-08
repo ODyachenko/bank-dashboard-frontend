@@ -2,6 +2,8 @@ import { FC } from 'react';
 import { InputFieldType } from '../../../@types';
 
 const InputField: FC<InputFieldType> = ({
+  value,
+  onChange,
   type,
   label,
   placeholder,
@@ -13,6 +15,8 @@ const InputField: FC<InputFieldType> = ({
       <input
         className="border border-solid border-border-gray  rounded-xl py-4 px-5"
         type={type}
+        value={value}
+        onChange={(evt) => onChange(evt.target.value)}
         placeholder={placeholder}
       />
     </label>
