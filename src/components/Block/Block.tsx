@@ -4,7 +4,7 @@ import { BlockType } from '../../../@types';
 const Block: FC<BlockType> = ({ children, title, className }) => {
   return (
     <div
-      className={`block bg-white rounded-2xl p-4 lg:py-8 lg:px-5 ${
+      className={`block bg-white rounded-2xl p-4 xl:py-8 xl:px-5 ${
         className ? className : ''
       } `}
     >

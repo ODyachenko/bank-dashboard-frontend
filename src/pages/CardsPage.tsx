@@ -14,10 +14,10 @@ const CardsPage: FC = () => {
         <CreditCards className="mb-5" />
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
           <ExpenseStatistics />
-          <CardsList className="col-span-2" />
+          <CardsList className="col-span-2 mt-5 lg:mt-0" />
         </div>
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
-          <NewCard className="col-span-2" />
+          <NewCard className="col-span-2 mb-5 lg:mb-0" />
           <CardSettings />
         </div>
       </PageWrapper>

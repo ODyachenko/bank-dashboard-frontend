@@ -11,13 +11,13 @@ const LoanRecord: FC<LoansType> = ({
 }) => {
   return (
     <tr className="text-center border-b border-solid border-border-gray">
-      <td className="p-4 hidden lg:table-cell">{id}</td>
-      <td className="p-4">${loanMoney}</td>
-      <td className="p-4">${leftToRepay}</td>
-      <td className="p-4 hidden lg:table-cell">{duration} Months</td>
-      <td className="p-4 hidden lg:table-cell">{rate}%</td>
-      <td className="p-4 hidden lg:table-cell">${installment} / month</td>
-      <td className="p-4">
+      <td className="p-3 hidden lg:table-cell">{id}</td>
+      <td className="p-3">${loanMoney}</td>
+      <td className="p-3">${leftToRepay}</td>
+      <td className="p-3 hidden lg:table-cell">{duration} Months</td>
+      <td className="p-3 hidden lg:table-cell">{rate}%</td>
+      <td className="p-3 hidden lg:table-cell">${installment} / month</td>
+      <td className="p-3">
         <button className="border text-center border-solid rounded-2xl cursor-pointer transition-all py-2 px-3 hover:text-primary-blue hover:border-primary-blue">
           Repay
         </button>

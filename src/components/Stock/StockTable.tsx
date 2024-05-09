@@ -4,7 +4,7 @@ import StockRecord from './StockRecord';
 
 const StockTable: FC = () => {
   return (
-    <table className="w-full bg-white rounded-2xl">
+    <table className="w-full lg:block lg:overflow-auto">
       <thead className="font-medium text-secondary-blue border-b border-solid border-border-gray hidden lg:table-header-group">
         <tr>
           <th className="p-4">SL No</th>

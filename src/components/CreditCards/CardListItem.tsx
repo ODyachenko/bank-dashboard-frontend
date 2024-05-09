@@ -16,7 +16,7 @@ const CardListItem: FC<CardType> = ({ type, bank }) => {
         <h3 className="font-medium mb-1">Bank</h3>
         <span className="text-xs text-secondary-blue">{bank}</span>
       </div>
-      <button className="inline-block w-auto text-primary-blue">
+      <button className="hidden min-[480px]:inline-block w-auto text-primary-blue">
         View Details
       </button>
     </li>

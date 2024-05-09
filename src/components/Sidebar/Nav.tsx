@@ -17,7 +17,7 @@ const Sidebar: FC = () => {
 
   return (
     <nav
-      className={`nav  absolute top-0 bottom-0 -left-[255px] z-50 transition-all duration-300 lg:block xl:flex-shrink-0 
+      className={`nav absolute top-0 bottom-0 -left-[255px] z-50 transition-all duration-300 lg:block xl:flex-shrink-0 
       ${showNavbar ? 'left-0' : ''} lg:static`}
     >
       <div className="container">

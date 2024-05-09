@@ -12,7 +12,7 @@ const TransactionsRecord: FC<RecentTransaction> = ({
 }) => {
   return (
     <tr className="text-center border-b border-solid border-border-gray">
-      <td className="flex items-center gap-2 p-4">
+      <td className="flex items-center gap-2 p-3">
         <svg
           width="25"
           height="25"
@@ -37,17 +37,17 @@ const TransactionsRecord: FC<RecentTransaction> = ({
 
         {description}
       </td>
-      <td className="p-4 hidden lg:table-cell">{transactionId}</td>
-      <td className="p-4 hidden lg:table-cell">{type}</td>
-      <td className="p-4 hidden lg:table-cell">{card}</td>
-      <td className="p-4">{date}</td>
+      <td className="p-3 hidden lg:table-cell">{transactionId}</td>
+      <td className="p-3 hidden lg:table-cell">{type}</td>
+      <td className="p-3 hidden lg:table-cell">{card}</td>
+      <td className="p-3">{date}</td>
       {direction === 'income' ? (
-        <td className={`p-4 text-primary-green`}>+${amount}</td>
+        <td className={`p-3 text-primary-green`}>+${amount}</td>
       ) : (
-        <td className={`p-4 text-primary-red`}>-${amount}</td>
+        <td className={`p-3 text-primary-red`}>-${amount}</td>
       )}
 
-      <td className="p-4">
+      <td className="p-3">
         <button className="border text-center border-solid rounded-2xl cursor-pointer transition-all py-2 px-3 hover:text-primary-blue hover:border-primary-blue hidden lg:table-cell">
           Download
         </button>

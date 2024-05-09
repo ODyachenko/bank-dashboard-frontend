@@ -10,10 +10,14 @@ import {
   Line,
 } from 'recharts';
 import { yearlyInvestment } from '../../data/yearlyInvestment';
+import { ClassNameProps } from '../../../@types';
 
-const YearlyInvestment: FC = () => {
+const YearlyInvestment: FC<ClassNameProps> = ({ className }) => {
   return (
-    <Block title="Yearly Total Investment">
+    <Block
+      title="Yearly Total Investment"
+      className={className ? className : ''}
+    >
       <ResponsiveContainer height={225}>
         <LineChart data={yearlyInvestment}>
           <CartesianGrid strokeDasharray="3 3" />

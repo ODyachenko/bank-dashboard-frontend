@@ -10,7 +10,7 @@ const Transactions: FC = () => {
     <Layout>
       <PageWrapper title="Transactions">
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
-          <CreditCards className="col-span-2" />
+          <CreditCards className="col-span-2 mb-5 lg:mb-0" />
           <YearlyExpenses />
         </div>
         <RecentTransactions />

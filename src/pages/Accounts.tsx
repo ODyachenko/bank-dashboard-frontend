@@ -20,12 +20,12 @@ const Accounts: FC = () => {
           <Transactions
             title="Last Transaction"
             transactions={transacrionList}
-            className="lg:max-h-[204px] overflow-auto xl:max-h-[224px]"
+            className=" lg:max-h-[204px] overflow-auto xl:max-h-[224px]"
           />
-          <CreditCards className="col-span-2" />
+          <CreditCards className="col-span-2 mt-5 lg:mt-0" />
         </div>
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
-          <DebitCredit className="col-span-2" />
+          <DebitCredit className="col-span-2 mb-5 lg:mb-0" />
           <Transactions
             title="Invoices Sent"
             transactions={transacrionList}

@@ -22,7 +22,7 @@ const Overview: FC = () => {
           />
         </div>
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
-          <WeeklyActivity className="col-span-2" />
+          <WeeklyActivity className="col-span-2 mb-5 lg:mb-0" />
           <ExpenseStatistics />
         </div>
         <div className="row lg:grid lg:grid-cols-3 lg:gap-6">

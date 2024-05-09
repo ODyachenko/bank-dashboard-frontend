@@ -17,11 +17,11 @@ const Investments: FC = () => {
           className="sm:grid-cols-2 md:grid-cols-3 md:grid-rows-1"
         />
         <div className="row mb-5 lg:grid lg:grid-cols-2 lg:gap-6 lg:mb-6">
-          <YearlyInvestment />
+          <YearlyInvestment className="mb-5 lg:mb-0" />
           <MonthlyRevenue />
         </div>
         <div className="row mb-5 lg:grid lg:grid-cols-3 lg:gap-6 lg:mb-6">
-          <MyInvestment className="col-span-2" />
+          <MyInvestment className="col-span-2 mb-5 lg:mb-0" />
           <Stock />
         </div>
       </PageWrapper>
